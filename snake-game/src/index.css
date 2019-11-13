@@ -1,6 +1,12 @@
+.full-area {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 95vh;
+}
 .game-area {
   position: relative;
-  margin: 50px auto;
+  margin: 25px auto;
   width: 600px;
   height: 600px;
   border: 2px solid black;
@@ -10,8 +16,9 @@
   position: absolute;
   width: 2%;
   height: 2%;
-  background-color: black;
-  border: 1px solid white;
+  background-color: rgb(47, 181, 35);
+  border: 0.5px solid rgb(255, 255, 255);
+  box-sizing: border-box;
   z-index: 2;
 }
 
@@ -19,7 +26,9 @@
   position: absolute;
   width: 2%;
   height: 2%;
-  background-color: red;
-  border: 1px solid white;
+  /* background-image: url("mouse.png"); */
+  background-color: rgb(101, 101, 101);
+  border: 0.5px solid rgb(255, 255, 255);
+  box-sizing: border-box;
   z-index: 1;
 }
